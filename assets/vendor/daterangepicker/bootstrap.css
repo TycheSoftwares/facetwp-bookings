@@ -1,0 +1,65 @@
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+.daterangepicker .table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.daterangepicker .table > thead > tr > th,
+.daterangepicker .table > tbody > tr > th,
+.daterangepicker .table > tfoot > tr > th,
+.daterangepicker .table > thead > tr > td,
+.daterangepicker .table > tbody > tr > td,
+.daterangepicker .table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+.daterangepicker .table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dddddd;
+}
+.daterangepicker .table > caption + thead > tr:first-child > th,
+.daterangepicker .table > colgroup + thead > tr:first-child > th,
+.daterangepicker .table > thead:first-child > tr:first-child > th,
+.daterangepicker .table > caption + thead > tr:first-child > td,
+.daterangepicker .table > colgroup + thead > tr:first-child > td,
+.daterangepicker .table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+.daterangepicker .table > tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+.daterangepicker .table-condensed > thead > tr > th,
+.daterangepicker .table-condensed > tbody > tr > th,
+.daterangepicker .table-condensed > tfoot > tr > th,
+.daterangepicker .table-condensed > thead > tr > td,
+.daterangepicker .table-condensed > tbody > tr > td,
+.daterangepicker .table-condensed > tfoot > tr > td {
+  padding: 5px;
+}
+.daterangepicker .table > thead > tr > td.active,
+.daterangepicker .table > tbody > tr > td.active,
+.daterangepicker .table > tfoot > tr > td.active,
+.daterangepicker .table > thead > tr > th.active,
+.daterangepicker .table > tbody > tr > th.active,
+.daterangepicker .table > tfoot > tr > th.active,
+.daterangepicker .table > thead > tr.active > td,
+.daterangepicker .table > tbody > tr.active > td,
+.daterangepicker .table > tfoot > tr.active > td,
+.daterangepicker .table > thead > tr.active > th,
+.daterangepicker .table > tbody > tr.active > th,
+.daterangepicker .table > tfoot > tr.active > th {
+  background-color: #f5f5f5;
+}
+.daterangepicker .table-hover > tbody > tr > td.active:hover,
+.daterangepicker .table-hover > tbody > tr > th.active:hover,
+.daterangepicker .table-hover > tbody > tr.active:hover > td,
+.daterangepicker .table-hover > tbody > tr:hover > .active,
+.daterangepicker .table-hover > tbody > tr.active:hover > th {
+  background-color: #e8e8e8;
+}
