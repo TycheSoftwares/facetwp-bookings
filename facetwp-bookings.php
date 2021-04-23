@@ -159,7 +159,7 @@ class FacetWP_Facet_Availability {
 		var quantity = $this.find('.facetwp-quantity').val() || 1;
 		FWP.facets[facet_name] = ('' != date) ? [dates[0], dates[1], quantity] : [];
 		if (FWP.loaded) {
-			$input.data('daterangepicker').remove(); // cleanup the datepicker
+			//$input.data('daterangepicker').remove(); // cleanup the datepicker
 		}
 	});
 	FWP.hooks.addFilter('facetwp/selections/availability', function(output, params) {
